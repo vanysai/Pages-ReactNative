@@ -1,12 +1,11 @@
-# Páginas do React Native
+# Sample Snack app
 
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-Nesse projeto criamos duas telas em ReactNative.
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
 
-A primeira é a page do Duolingo
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
 
-<img src='https://media4.giphy.com/media/IURYMmloHWzmKihgQ2/giphy.gif?cid=6c09b952712f5d2e48b6ab5dc8d8e0fb258d26cbd50a2717&rid=giphy.gif&ct=s' alt= 'Duolingo image'>
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
 
-A segunda tela é a imagem do Google
-
-<img src= 'https://i.kym-cdn.com/photos/images/original/002/052/110/0e1.gif'>
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).

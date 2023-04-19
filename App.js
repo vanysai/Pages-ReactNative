@@ -13,13 +13,7 @@ import { Card } from 'react-native-paper';
 export default function App() {
   return (
     <View style={styles.container}>
-      <AssetExample></AssetExample>
-      <TouchableOpacity style={styles.botao1}>
-        <Text style={{ color: 'white', textAlign: 'center' }}>GET STARTED</Text>
-      </TouchableOpacity>
-      <TouchableOpacity style={styles.botao2}>
-        <Text style={{ color: 'green', textAlign: 'center' }}>I ALREDY HAVE AN ACCOUNT</Text>
-      </TouchableOpacity>
+      <AssetExample/>
     </View>
   );
 }
@@ -31,27 +25,9 @@ const styles = StyleSheet.create({
     paddingTop: Constants.statusBarHeight,
     backgroundColor: 'white',
     padding: 8,
-  },
-  botao1:{
-    backgroundColor: 'green', 
-    padding: 5, 
-    marginRight:20, 
-    marginLeft: 20, 
-    fontSize: 100, 
     borderRadius: 10,
   },
-  botao2:{
-    backgroundColor: 'whitesmoke', 
-    padding: 5, 
-    fontColor: 'green',
-    marginRight:20, 
-    marginLeft: 20, 
-    fontSize: 100,
-    margin: 24,
-    borderRadius: 10,
-    textAlign:'center',
-
-  },
+  
   paragraph: {
     margin: 50,
     fontSize: 18,
