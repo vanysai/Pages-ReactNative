@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, Image } from 'react-native';
+import { TextInput, View, StyleSheet, Image } from 'react-native';
 
 export default function AssetExample() {
   return (
     <View style={styles.container}>
-      <Image style={styles.logo} source={require('../assets/Duolingo-logo.png')} />
+      <Image style={styles.logo} source={require('../assets/google.png')} />
 
-      <Text style={styles.paragraph}>
-       Learn a language for free. Forever.
-      </Text>
+      <TextInput style={styles.paragraph}>
+       Search or type URL
+      </TextInput>
     </View>
   );
 }
@@ -20,16 +20,19 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   paragraph: {
-    padding: 23,
-    margin: 24,
+    backgroundColor: 'whitesmoke',
+    padding: 12,
+    margin: 50,
     marginTop: 0,
     fontSize: 14,
     fontWeight: 'bold',
-    textAlign: 'center',
-    color: '#ebecf0'
-  },
+    color: 'gray',  
+    borderRadius: 4,
+    width: 250,
+    },
   logo: {
-    height: 128,
-    width: 128,
+    margin:30,
+    height: 40,
+    width: 112,
   }
 });
